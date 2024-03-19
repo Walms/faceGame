@@ -1,0 +1,33 @@
+#gameContainer {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#bouncingImage {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#scoreboard {
+    text-align: center;
+    background-color: #000;
+    color: #FFC600;
+    font-family: 'Press Start 2P', cursive; /* This font has a retro video game look */
+    padding: 10px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFF, 0 0 20px #FFC600 inset;
+    margin: 20px auto;
+    width: 300px;
+}
+
+#scoreboard p {
+    margin: 0;
+    font-size: 1.2em;
+}
